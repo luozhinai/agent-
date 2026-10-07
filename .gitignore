@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build and coverage output
+dist/
+build/
+out/
+.next/
+.nuxt/
+coverage/
+.cache/
+.parcel-cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs and local runtime files
+*.log
+logs/
+tmp/
+temp/
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.suo
+*.user
+*.swp
+*.swo
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local tooling and generated reports
+.eslintcache
+*.tsbuildinfo
+reports/
